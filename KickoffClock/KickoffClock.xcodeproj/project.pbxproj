@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443527802E03BD990012F3FE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527732E03BD980012F3FE /* Game.swift */; };
+		443527812E03BD990012F3FE /* GameCenterContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527752E03BD980012F3FE /* GameCenterContainerView.swift */; };
+		443527822E03BD990012F3FE /* GameDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527762E03BD980012F3FE /* GameDateView.swift */; };
+		443527832E03BD990012F3FE /* GameStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527772E03BD980012F3FE /* GameStateView.swift */; };
+		443527842E03BD990012F3FE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527782E03BD980012F3FE /* ScoreView.swift */; };
+		443527852E03BD990012F3FE /* TeamNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527792E03BD980012F3FE /* TeamNameView.swift */; };
+		443527862E03BD990012F3FE /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435277B2E03BD980012F3FE /* ScheduleViewModel.swift */; };
+		443527902E04F1DC0012F3FE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527892E04F1DB0012F3FE /* ColorExtension.swift */; };
+		443527922E04F1DC0012F3FE /* LogoCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435278D2E04F1DC0012F3FE /* LogoCache.swift */; };
+		443527932E04F1DC0012F3FE /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435278E2E04F1DC0012F3FE /* UIConstants.swift */; };
+		443527952E04F1F30012F3FE /* DummyTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527942E04F1F20012F3FE /* DummyTeam.swift */; };
+		443527972E04F2480012F3FE /* TeamLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527962E04F2480012F3FE /* TeamLogoView.swift */; };
+		443527992E0504400012F3FE /* ScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443527982E0504400012F3FE /* ScheduleService.swift */; };
+		4435279C2E050DBC0012F3FE /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435279B2E050DBC0012F3FE /* URLs.swift */; };
+		4435279F2E05D29A0012F3FE /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 4435279D2E05D29A0012F3FE /* main.png */; };
+		44F017112E025CC50073A7C2 /* KickoffClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F017102E025CC50073A7C2 /* KickoffClockApp.swift */; };
+		44F017132E025CC50073A7C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F017122E025CC50073A7C2 /* ContentView.swift */; };
+		44F017152E025CC80073A7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F017142E025CC80073A7C2 /* Assets.xcassets */; };
+		44F017182E025CC80073A7C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F017172E025CC80073A7C2 /* Preview Assets.xcassets */; };
+		44F017222E025CC80073A7C2 /* KickoffClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F017212E025CC80073A7C2 /* KickoffClockTests.swift */; };
+		44F0172C2E025CC80073A7C2 /* KickoffClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0172B2E025CC80073A7C2 /* KickoffClockUITests.swift */; };
+		44F0172E2E025CC80073A7C2 /* KickoffClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0172D2E025CC80073A7C2 /* KickoffClockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44F0171E2E025CC80073A7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44F017052E025CC50073A7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44F0170C2E025CC50073A7C2;
+			remoteInfo = KickoffClock;
+		};
+		44F017282E025CC80073A7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44F017052E025CC50073A7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44F0170C2E025CC50073A7C2;
+			remoteInfo = KickoffClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		443527702E035C270012F3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		443527732E03BD980012F3FE /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		443527752E03BD980012F3FE /* GameCenterContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenterContainerView.swift; sourceTree = "<group>"; };
+		443527762E03BD980012F3FE /* GameDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDateView.swift; sourceTree = "<group>"; };
+		443527772E03BD980012F3FE /* GameStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateView.swift; sourceTree = "<group>"; };
+		443527782E03BD980012F3FE /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		443527792E03BD980012F3FE /* TeamNameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamNameView.swift; sourceTree = "<group>"; };
+		4435277B2E03BD980012F3FE /* ScheduleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		443527892E04F1DB0012F3FE /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4435278D2E04F1DC0012F3FE /* LogoCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoCache.swift; sourceTree = "<group>"; };
+		4435278E2E04F1DC0012F3FE /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		443527942E04F1F20012F3FE /* DummyTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyTeam.swift; sourceTree = "<group>"; };
+		443527962E04F2480012F3FE /* TeamLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamLogoView.swift; path = KickoffClock/UIComponents/TeamLogoView.swift; sourceTree = SOURCE_ROOT; };
+		443527982E0504400012F3FE /* ScheduleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleService.swift; sourceTree = "<group>"; };
+		4435279B2E050DBC0012F3FE /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		4435279D2E05D29A0012F3FE /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		44F0170D2E025CC50073A7C2 /* KickoffClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickoffClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F017102E025CC50073A7C2 /* KickoffClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickoffClockApp.swift; sourceTree = "<group>"; };
+		44F017122E025CC50073A7C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44F017142E025CC80073A7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44F017172E025CC80073A7C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44F0171D2E025CC80073A7C2 /* KickoffClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickoffClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F017212E025CC80073A7C2 /* KickoffClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickoffClockTests.swift; sourceTree = "<group>"; };
+		44F017272E025CC80073A7C2 /* KickoffClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickoffClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F0172B2E025CC80073A7C2 /* KickoffClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickoffClockUITests.swift; sourceTree = "<group>"; };
+		44F0172D2E025CC80073A7C2 /* KickoffClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickoffClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44F0170A2E025CC50073A7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F0171A2E025CC80073A7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F017242E025CC80073A7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443527742E03BD980012F3FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				443527942E04F1F20012F3FE /* DummyTeam.swift */,
+				443527732E03BD980012F3FE /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4435277A2E03BD980012F3FE /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				443527962E04F2480012F3FE /* TeamLogoView.swift */,
+				443527752E03BD980012F3FE /* GameCenterContainerView.swift */,
+				443527762E03BD980012F3FE /* GameDateView.swift */,
+				443527772E03BD980012F3FE /* GameStateView.swift */,
+				443527782E03BD980012F3FE /* ScoreView.swift */,
+				443527792E03BD980012F3FE /* TeamNameView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		4435277C2E03BD980012F3FE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4435277B2E03BD980012F3FE /* ScheduleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4435277E2E03BD990012F3FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				443527982E0504400012F3FE /* ScheduleService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4435278A2E04F1DB0012F3FE /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				4435278D2E04F1DC0012F3FE /* LogoCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		4435278F2E04F1DC0012F3FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4435279B2E050DBC0012F3FE /* URLs.swift */,
+				443527892E04F1DB0012F3FE /* ColorExtension.swift */,
+				4435278E2E04F1DC0012F3FE /* UIConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4435279E2E05D29A0012F3FE /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				4435279D2E05D29A0012F3FE /* main.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		44F017042E025CC50073A7C2 = {
+			isa = PBXGroup;
+			children = (
+				44F0170F2E025CC50073A7C2 /* KickoffClock */,
+				44F017202E025CC80073A7C2 /* KickoffClockTests */,
+				44F0172A2E025CC80073A7C2 /* KickoffClockUITests */,
+				44F0170E2E025CC50073A7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44F0170E2E025CC50073A7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44F0170D2E025CC50073A7C2 /* KickoffClock.app */,
+				44F0171D2E025CC80073A7C2 /* KickoffClockTests.xctest */,
+				44F017272E025CC80073A7C2 /* KickoffClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44F0170F2E025CC50073A7C2 /* KickoffClock */ = {
+			isa = PBXGroup;
+			children = (
+				4435279E2E05D29A0012F3FE /* Screenshots */,
+				4435278A2E04F1DB0012F3FE /* Cache */,
+				443527742E03BD980012F3FE /* Models */,
+				4435277E2E03BD990012F3FE /* Services */,
+				4435277C2E03BD980012F3FE /* ViewModels */,
+				4435277A2E03BD980012F3FE /* UIComponents */,
+				4435278F2E04F1DC0012F3FE /* Utils */,
+				44F017122E025CC50073A7C2 /* ContentView.swift */,
+				44F017102E025CC50073A7C2 /* KickoffClockApp.swift */,
+				44F017142E025CC80073A7C2 /* Assets.xcassets */,
+				443527702E035C270012F3FE /* Info.plist */,
+				44F017162E025CC80073A7C2 /* Preview Content */,
+			);
+			path = KickoffClock;
+			sourceTree = "<group>";
+		};
+		44F017162E025CC80073A7C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44F017172E025CC80073A7C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44F017202E025CC80073A7C2 /* KickoffClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				44F017212E025CC80073A7C2 /* KickoffClockTests.swift */,
+			);
+			path = KickoffClockTests;
+			sourceTree = "<group>";
+		};
+		44F0172A2E025CC80073A7C2 /* KickoffClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44F0172B2E025CC80073A7C2 /* KickoffClockUITests.swift */,
+				44F0172D2E025CC80073A7C2 /* KickoffClockUITestsLaunchTests.swift */,
+			);
+			path = KickoffClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44F0170C2E025CC50073A7C2 /* KickoffClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F017312E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClock" */;
+			buildPhases = (
+				44F017092E025CC50073A7C2 /* Sources */,
+				44F0170A2E025CC50073A7C2 /* Frameworks */,
+				44F0170B2E025CC50073A7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KickoffClock;
+			productName = KickoffClock;
+			productReference = 44F0170D2E025CC50073A7C2 /* KickoffClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44F0171C2E025CC80073A7C2 /* KickoffClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F017342E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClockTests" */;
+			buildPhases = (
+				44F017192E025CC80073A7C2 /* Sources */,
+				44F0171A2E025CC80073A7C2 /* Frameworks */,
+				44F0171B2E025CC80073A7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44F0171F2E025CC80073A7C2 /* PBXTargetDependency */,
+			);
+			name = KickoffClockTests;
+			productName = KickoffClockTests;
+			productReference = 44F0171D2E025CC80073A7C2 /* KickoffClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44F017262E025CC80073A7C2 /* KickoffClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F017372E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClockUITests" */;
+			buildPhases = (
+				44F017232E025CC80073A7C2 /* Sources */,
+				44F017242E025CC80073A7C2 /* Frameworks */,
+				44F017252E025CC80073A7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44F017292E025CC80073A7C2 /* PBXTargetDependency */,
+			);
+			name = KickoffClockUITests;
+			productName = KickoffClockUITests;
+			productReference = 44F017272E025CC80073A7C2 /* KickoffClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44F017052E025CC50073A7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					44F0170C2E025CC50073A7C2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					44F0171C2E025CC80073A7C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 44F0170C2E025CC50073A7C2;
+					};
+					44F017262E025CC80073A7C2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 44F0170C2E025CC50073A7C2;
+					};
+				};
+			};
+			buildConfigurationList = 44F017082E025CC50073A7C2 /* Build configuration list for PBXProject "KickoffClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44F017042E025CC50073A7C2;
+			productRefGroup = 44F0170E2E025CC50073A7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44F0170C2E025CC50073A7C2 /* KickoffClock */,
+				44F0171C2E025CC80073A7C2 /* KickoffClockTests */,
+				44F017262E025CC80073A7C2 /* KickoffClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F0170B2E025CC50073A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F017182E025CC80073A7C2 /* Preview Assets.xcassets in Resources */,
+				44F017152E025CC80073A7C2 /* Assets.xcassets in Resources */,
+				4435279F2E05D29A0012F3FE /* main.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F0171B2E025CC80073A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F017252E025CC80073A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F017092E025CC50073A7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443527852E03BD990012F3FE /* TeamNameView.swift in Sources */,
+				4435279C2E050DBC0012F3FE /* URLs.swift in Sources */,
+				44F017132E025CC50073A7C2 /* ContentView.swift in Sources */,
+				443527812E03BD990012F3FE /* GameCenterContainerView.swift in Sources */,
+				443527832E03BD990012F3FE /* GameStateView.swift in Sources */,
+				443527992E0504400012F3FE /* ScheduleService.swift in Sources */,
+				443527802E03BD990012F3FE /* Game.swift in Sources */,
+				443527952E04F1F30012F3FE /* DummyTeam.swift in Sources */,
+				443527902E04F1DC0012F3FE /* ColorExtension.swift in Sources */,
+				443527922E04F1DC0012F3FE /* LogoCache.swift in Sources */,
+				443527842E03BD990012F3FE /* ScoreView.swift in Sources */,
+				443527972E04F2480012F3FE /* TeamLogoView.swift in Sources */,
+				443527932E04F1DC0012F3FE /* UIConstants.swift in Sources */,
+				443527822E03BD990012F3FE /* GameDateView.swift in Sources */,
+				443527862E03BD990012F3FE /* ScheduleViewModel.swift in Sources */,
+				44F017112E025CC50073A7C2 /* KickoffClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F017192E025CC80073A7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F017222E025CC80073A7C2 /* KickoffClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F017232E025CC80073A7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F0172C2E025CC80073A7C2 /* KickoffClockUITests.swift in Sources */,
+				44F0172E2E025CC80073A7C2 /* KickoffClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44F0171F2E025CC80073A7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44F0170C2E025CC50073A7C2 /* KickoffClock */;
+			targetProxy = 44F0171E2E025CC80073A7C2 /* PBXContainerItemProxy */;
+		};
+		44F017292E025CC80073A7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44F0170C2E025CC50073A7C2 /* KickoffClock */;
+			targetProxy = 44F017282E025CC80073A7C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44F0172F2E025CC80073A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44F017302E025CC80073A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F017322E025CC80073A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KickoffClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KickoffClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44F017332E025CC80073A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KickoffClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KickoffClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44F017352E025CC80073A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickoffClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KickoffClock";
+			};
+			name = Debug;
+		};
+		44F017362E025CC80073A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KickoffClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KickoffClock";
+			};
+			name = Release;
+		};
+		44F017382E025CC80073A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KickoffClock;
+			};
+			name = Debug;
+		};
+		44F017392E025CC80073A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K82B6HTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toto.KickoffClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KickoffClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44F017082E025CC50073A7C2 /* Build configuration list for PBXProject "KickoffClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F0172F2E025CC80073A7C2 /* Debug */,
+				44F017302E025CC80073A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F017312E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F017322E025CC80073A7C2 /* Debug */,
+				44F017332E025CC80073A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F017342E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F017352E025CC80073A7C2 /* Debug */,
+				44F017362E025CC80073A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F017372E025CC80073A7C2 /* Build configuration list for PBXNativeTarget "KickoffClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F017382E025CC80073A7C2 /* Debug */,
+				44F017392E025CC80073A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44F017052E025CC50073A7C2 /* Project object */;
+}
